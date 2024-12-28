@@ -1,0 +1,15 @@
+{
+  "name": "interaction-summary-exp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prompt:copy": "bun run make-prompt.ts | pbcopy",
+    "build:copy": "tsup && cat dist/index.global.js | pbcopy"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tsup": "^8.3.5"
+  }
+}
